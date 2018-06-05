@@ -12,11 +12,14 @@ python 3 and PyTorch 0.3
 ## Implementation
 
 Learning the model with the adversarial dropout
+
 ```python3 main.py --method=AdD --name=PTB_AdD```
 
 Finetuning the model 
+
 ```python3 finetune.py --data=data/penn --save=output/PTB_AdD.pt```
 
 Evaluating the learned model
+
 ```python3 eval.py --data=data/penn --model_path=output/PTB_AdD.pt```
 
