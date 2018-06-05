@@ -1,9 +1,12 @@
 # Adversarial Dropout (Penn Treebank Language Modeling)
 
-## A use-case of adversarial dropout on language modeling task (Penn Treebank, PTB)
-(Adversarial dropout for recurrent neural network)
+## A use-case of adversarial dropout on language modeling task (PTB)
 
-This implementation added our algorithm on the original code from the AWD-LSTM Language Model (The base LSTM structure of our algorithm)
+This code is about the implementation of the paper "Adversarial dropout for recurrent neural network"
+
+This implementation added our algorithm on the original code from the AWD-LSTM Language Model (https://github.com/salesforce/awd-lstm-lm)
+and the fraternal dropout (https://github.com/kondiz/fraternal-dropout/tree/PTB) 
+
 Our approach achieved ``58.4 (validation)`` and ``56.1 (test)`` after fine-tuning
 
 ## Software Requirements
